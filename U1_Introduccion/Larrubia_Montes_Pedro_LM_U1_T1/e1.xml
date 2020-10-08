@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+
+<torneo>
+<fechainicio>11/07/2020</fechainicio>
+    <partido>
+        <fechapartido>11/07/2020</fechapartido>
+        <jugadorespartido> 
+            <jugador>
+            <nombre>Pepe</nombre>
+            <apellidos>Garcia Moreno</apellidos>
+            <nacionalidad>Español</nacionalidad>
+            </jugador>
+            <jugador>
+            <nombre>Pedro</nombre>
+            <apellidos>Larrubia Montes</apellidos>
+            <nacionalidad>Español</nacionalidad>
+            </jugador>
+        </jugadorespartido>
+        <resultado> 2-6 / 1-6 / 5-7 </resultado>
+    </partido>
+    <partido>
+        <fechapartido>11/07/2020</fechapartido>
+        <jugadorespartido> 
+            <jugador>
+            <nombre>Pablo</nombre>
+            <apellidos>Mateos Alonso</apellidos>
+            <nacionalidad>Español</nacionalidad>
+            </jugador>
+            <jugador>
+            <nombre>Federico</nombre>
+            <apellidos>Lopez Galdos</apellidos>
+            <nacionalidad>Español</nacionalidad>
+            </jugador>
+        </jugadorespartido>
+        <resultado> 2-6 / 1-6 / 5-7 </resultado>
+    </partido>
+     <partido>
+        <fechapartido>11/07/2020</fechapartido>
+        <jugadorespartido> 
+            <jugador>
+            <nombre>Dani</nombre>
+            <apellidos>Perez Diaz</apellidos>
+            <nacionalidad>Español</nacionalidad>
+            </jugador>
+            <jugador>
+            <nombre>Jesus</nombre>
+            <apellidos>Rivero Sanchez</apellidos>
+            <nacionalidad>Español</nacionalidad>
+            </jugador>
+        </jugadorespartido>
+        <resultado>2-6 / 1-6 / 5-7 </resultado>
+    </partido>
+    <partido>
+        <fechapartido>11/07/2020</fechapartido>
+        <jugadorespartido> 
+            <jugador>
+            <nombre>Juan</nombre>
+            <apellidos>Diaz Perez </apellidos>
+            <nacionalidad>Español</nacionalidad>
+            </jugador>
+            <jugador>
+            <nombre>Javi</nombre>
+            <apellidos>Garcia Herrera</apellidos>
+            <nacionalidad>Español</nacionalidad>
+            </jugador>
+        </jugadorespartido>
+        <resultado> 2-6 / 1-6 / 5-7 </resultado>
+    </partido>
+    <partido>
+        <fechapartido>11/07/2020</fechapartido>
+        <jugadorespartido> 
+            <jugador>
+            <nombre>Pedro</nombre>
+            <apellidos>Garrigos Garrido</apellidos>
+            <nacionalidad>Español</nacionalidad>
+            </jugador>
+            <jugador>
+            <nombre>Juan</nombre>
+            <apellidos>Vela Martinez</apellidos>
+            <nacionalidad>Español</nacionalidad>
+            </jugador>
+        </jugadorespartido>
+        <resultado> 2-6 / 1-6 / 5-7 </resultado>
+    </partido>
+    <partido>
+        <fechapartido>11/07/2020</fechapartido>
+        <jugadorespartido> 
+            <jugador>
+            <nombre>Elias</nombre>
+            <apellidos>Badun Olivares</apellidos>
+            <nacionalidad>Español</nacionalidad>
+            </jugador>
+            <jugador>
+            <nombre>Pepe</nombre>
+            <apellidos>Perez Lopez</apellidos>
+            <nacionalidad>Español</nacionalidad>
+            </jugador>
+        </jugadorespartido>
+        <resultado> 2-6 / 1-6 / 5-7 </resultado>
+    </partido>
+    <partido>
+        <fechapartido>11/07/2020</fechapartido>
+        <jugadorespartido> 
+            <jugador>
+            <nombre>Juan</nombre>
+            <apellidos>Valverde Moreno</apellidos>
+            <nacionalidad>Español</nacionalidad>
+            </jugador>
+            <jugador>
+            <nombre>Gabriel</nombre>
+            <apellidos>Vidal Gonzalez</apellidos>
+            <nacionalidad>Español</nacionalidad>
+            </jugador>
+        </jugadorespartido>
+        <resultado>2-6 / 1-6 / 5-7</resultado>
+    </partido>
+    <partido>
+        <fechapartido>11/07/2020</fechapartido>
+        <jugadorespartido> 
+            <jugador>
+            <nombre>Edu</nombre>
+            <apellidos>Cobreros Montero</apellidos>
+            <nacionalidad>Español</nacionalidad>
+            </jugador>
+            <jugador>
+            <nombre>Ignacio</nombre>
+            <apellidos>Clemente Pastor</apellidos>
+            <nacionalidad>Español</nacionalidad>
+            </jugador>
+        </jugadorespartido>
+        <resultado>2-6 / 1-6 / 5-7</resultado>
+    </partido>
+    <partido>
+        <fechapartido>11/07/2020</fechapartido>
+        <jugadorespartido> 
+            <jugador>
+            <nombre>Pedro</nombre>
+            <apellidos>Mellado Ardila</apellidos>
+            <nacionalidad>Español</nacionalidad>
+            </jugador>
+            <jugador>
+            <nombre>Alvaro</nombre>
+            <apellidos>Miranda Pozo</apellidos>
+            <nacionalidad>Español</nacionalidad>
+            </jugador>
+        </jugadorespartido>
+        <resultado>2-6 / 1-6 / 5-7</resultado>
+    </partido>
+    <partido>
+        <fechapartido>11/07/2020</fechapartido>
+        <jugadorespartido> 
+            <jugador>
+            <nombre>Pedro</nombre>
+            <apellidos>Parrilla Bascon</apellidos>
+            <nacionalidad>Español</nacionalidad>
+            </jugador>
+            <jugador>
+            <nombre>Miguel</nombre>
+            <apellidos>Ramos Garcia</apellidos>
+            <nacionalidad>Español</nacionalidad>
+            </jugador>
+        </jugadorespartido>
+        <resultado>2-6 / 1-6 / 5-7</resultado>
+    </partido>
+    <fechafin>11/07/2020</fechafin>
+</torneo>  

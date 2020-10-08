@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cluster>
+    <nodo>
+        <numero>1</numero>
+        <ip>79.147.173.00</ip>
+        <maquinavirtual>
+            <nombre>Maquina 1</nombre>
+            <sistemaoperativo>linux</sistemaoperativo>
+            <interfazred>
+                <numero>1</numero>
+                <ip>79.147.173.21</ip>
+                <mac>a1:a8:a1:a2</mac>
+            </interfazred>
+            <interfazred>
+                <numero>2</numero>
+                <ip>79.147.171.21</ip>
+                <mac>a1:a8:a2:a2</mac>
+            </interfazred>
+        </maquinavirtual>
+        <maquinavirtual>
+            <nombre>Maquina 2</nombre>
+            <sistemaoperativo>linux</sistemaoperativo>
+            <interfazred>
+                <numero>1</numero>
+                <ip>79.147.163.22</ip>
+                <mac>a1:a7:a1:a2</mac>
+            </interfazred>
+            <interfazred>
+                <numero>2</numero>
+                <ip>79.147.153.22</ip>
+                <mac>a1:a7:a3:a2</mac>
+            </interfazred>
+        </maquinavirtual>
+        <maquinavirtual>
+            <nombre>Maquina 3</nombre>
+            <sistemaoperativo>linux</sistemaoperativo>
+            <interfazred>
+            <numero>1</numero>
+                <ip>79.147.173.23</ip>
+                <mac>a1:a6:a1:a2</mac>
+            </interfazred>
+            <numero>2</numero>
+                <ip>79.147.169.23</ip>
+                <mac>a1:a6:a7:a2</mac>
+</interfazred>
+        </maquinavirtual>
+    </nodo>
+<nodo>
+        <numero>2</numero>
+        <ip>79.147.173.01</ip>
+        <maquinavirtual>
+            <nombre>Maquina 4</nombre>
+            <sistemaoperativo>linux</sistemaoperativo>
+            <interfazred>
+                <ip>79.147.173.24</ip>
+                <mac>a1:a5:a1:a2</mac>
+            </interfazred>
+        </maquinavirtual>
+        <maquinavirtual>
+            <nombre>Maquina 5</nombre>
+            <sistemaoperativo>linux</sistemaoperativo>
+            <interfazred>
+                <ip>79.147.173.25</ip>
+                <mac>a1:a4:a1:a2</mac>
+            </interfazred>
+        </maquinavirtual>
+        <maquinavirtual>
+            <nombre>Maquina 6</nombre>
+            <sistemaoperativo>linux</sistemaoperativo>
+            <interfazred>
+                <ip>79.147.173.26</ip>
+                <mac>a1:a3:a1:a2</mac>
+            </interfazred>
+        </maquinavirtual>
+    </nodo>
+
+<nodo>
+        <numero>3</numero>
+        <ip>79.147.173.02</ip>
+        <maquinavirtual>
+            <nombre>Maquina 7</nombre>
+            <sistemaoperativo>linux</sistemaoperativo>
+            <interfazred>
+                <ip>79.147.173.27</ip>
+                <mac>a1:a2:a1:a2</mac>
+            </interfazred>
+        </maquinavirtual>
+        <maquinavirtual>
+            <nombre>Maquina 8</nombre>
+            <sistemaoperativo>linux</sistemaoperativo>
+            <interfazred>
+                <ip>79.147.173.28</ip>
+                <mac>a9:a1:a1:a2</mac>
+            </interfazred>
+        </maquinavirtual>
+        <maquinavirtual>
+            <nombre>Maquina 9</nombre>
+            <sistemaoperativo>linux</sistemaoperativo>
+            <interfazred>
+                <ip>79.147.173.29</ip>
+                <mac>a8:a1:a1:a2</mac>
+            </interfazred>
+        </maquinavirtual>
+    </nodo>
+
+<nodo>
+        <numero>4</numero>
+        <ip>79.147.173.04</ip>
+        <maquinavirtual>
+            <nombre>Maquina 10</nombre>
+            <sistemaoperativo>linux</sistemaoperativo>
+            <interfazred>
+                <ip>79.147.173.30</ip>
+                <mac>a7:a1:a1:a2</mac>
+            </interfazred>
+        </maquinavirtual>
+        <maquinavirtual>
+            <nombre>Maquina 11</nombre>
+            <sistemaoperativo>linux</sistemaoperativo>
+            <interfazred>
+                <ip>79.147.173.31</ip>
+                <mac>a6:a1:a1:a2</mac>
+            </interfazred>
+        </maquinavirtual>
+        <maquinavirtual>
+            <nombre>Maquina 12</nombre>
+            <sistemaoperativo>linux</sistemaoperativo>
+            <interfazred>
+                <ip>79.147.173.26
+        <numero>5</numero>
+        <ip>79.147.173.05</ip>
+        <maquinavirtual>
+            <nombre>Maquina 13</nombre>
+            <sistemaoperativo>linux</sistemaoperativo>
+            <interfazred>
+                <ip>79.147.173.33</ip>
+                <mac>a4:a1:a1:a2</mac>
+            </interfazred>
+        </maquinavirtual>
+        <maquinavirtual>
+            <nombre>Maquina 14</nombre>
+            <sistemaoperativo>linux</sistemaoperativo>
+            <interfazred>
+                <ip>79.147.173.34</ip>
+                <mac>a3:a1:a1:a2</mac>
+            </interfazred>
+        </maquinavirtual>
+        <maquinavirtual>
+            <nombre>Maquina 15  </nombre>
+            <sistemaoperativo>linux</sistemaoperativo>
+            <interfazred>
+                <ip>79.147.173.35</ip>
+                <mac>a2:a1:a1:a2</mac>
+            </interfazred>
+        </maquinavirtual>
+    </nodo>
+
+
+</cluster>
