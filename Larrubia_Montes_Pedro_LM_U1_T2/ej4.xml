@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<shiporder xmlns:xs="http://www.w3.org/2001/XMLSchema" xs:noNamespaceSchemaLocation="ej4.xsd">
+    <orderperson>Pepe</orderperson>
+    <shipto>
+        <name>Paco</name>
+        <address>Casablanca 24</address>
+        <city>Savilla</city>
+        <country>España</country>
+    </shipto>
+    <item>
+        <title>iphone12</title>
+        <note></note>
+        <quantity>1</quantity>
+        <price>909</price>
+    </item>
+    <orderid>12345</orderid>
+</shiporder>

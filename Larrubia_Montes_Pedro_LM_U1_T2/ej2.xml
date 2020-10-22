@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Libro SYSTEM "ej2.dtd">
+<Libro Catalogo="Libro de texto">
+    <Titulo>aprendfe a programar</Titulo>
+    <Seccion>Informatica</Seccion>
+    <SubSeccion>Ordenadores</SubSeccion>
+    <Contenido>
+        <Capitulo materia="XML">
+            <Tema>tema 1 introduccion</Tema>
+        </Capitulo>
+        <Separacion></Separacion>
+    </Contenido>
+    <Copyright>Si</Copyright>
+</Libro>
