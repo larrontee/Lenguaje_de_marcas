@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th, td{
+            border-collapse: collapse;
+        }
+        span{
+            color: red;
+        }
+        table{
+            border: solid 1px gray ;
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr style="background-color: orange;">
+                <th style="text-align: center;" colspan="3">
+                    The World of Fruit
+                </th>
+            </tr>
+        </thead>
+        <tbody style="background-color: rgb(235, 186, 96);">
+            <tr style="text-align: center;">
+                <th colspan="3">Fruit Survey</th>
+            </tr>
+            <tr>
+                <td  style="text-align: right;">
+                    Name
+                </td>
+                <td>
+                    <input type="text" value="Iain Tench">
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;">Address</td>
+                <td><input type="text" value="10 The Avenue"></td>
+            </tr>
+            <tr>
+                <td style="text-align: right;"> Email </td>
+                <td style="padding-right: 240px;"> <input type="text "> <span>Missing</span></td>
+            </tr>
+            <td style="text-align: right; padding-left: 10px;"> How many pieces of fruit <br/> do you eat a day</td>
+            <td>
+                <ul>
+                    <input type="radio"> 0<br/>
+                    <input type="radio"> 1<br/>
+                    <input type="radio"> 2<br/>
+                    <input type="radio"> More than 2<br/>
+                </ul>
+            </td>
+            <tr>
+                <td style="text-align: right;">My favourite fruit</td>
+                <td>
+                    <select name="fruits" multiple>
+                        <option value="Apple">Apple</option>
+                        <option value="Banana">Banana</option>
+                        <option value="Plun">Plun</option>
+                        <option value="Pomegranate">Pomegranate</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;">Would you like a <br/> Brouchure</td>
+                <td>
+                    <input type="checkbox">
+                </td>
+            </tr>
+            <tr>
+                <th colspan="3" style="padding-bottom: 20px;">
+                    <input type="button" value="Submit">
+                </th>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+</body>
+</html>
