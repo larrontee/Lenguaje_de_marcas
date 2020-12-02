@@ -1,0 +1,38 @@
+/* This is a comment */
+/* Style Sheet for Jaberwocky Tutorial */
+
+/* Body */
+/*el background-color cambia el color del fondo.*/
+body {background-color: tan}
+
+/* Headers */
+/* Aqui le estamos cambiando de color a los h1 que van en la cabecera y el tamaño de altura. */
+h1 {color:maroon; font-size:20pt}
+
+/* HR (Hard Rule = line) */
+/*Esto crea una linea divisoria de color azul*/
+hr {color:navy}
+
+/* Paragraphs */
+/*Aqui le estamos dando un tamaño 12pt y un margen por la izquierda de 15px a los parrafos.*/
+p {font-size:12pt; margin-left: 15px}
+/* En este le damos color marron y margen de 60px.  */
+p.verse {color:maroon; margin-left: 60px}
+
+/* Divs */
+
+/* Links */
+/* El link por defecto viene dado con color verde */
+a:link     {color:green}
+/* Cuando visitamos el link nos sale en amarillo. */
+a:visited  {color:yellow}
+/* Cuando el puntero esta flotando en link sale en negro*/
+a:hover    {color:black}
+/* Cuando pinchamos en el enlace sale en el azul. */
+a:active   {color:blue}
+
+/* Navigation */
+
+/* Classes used by all html elements */
+
+/* Ids */
