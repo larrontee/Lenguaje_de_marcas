@@ -1,0 +1,18 @@
+Esos 2 primeros parrafos son diferentes debido a que estan definidas con otras clases.
+
+<p class="verse">
+
+'Twas brillig, and the slithy toves<br />
+Did gyre and gimble in the wabe:<br />
+All mimsy were the borogoves,<br />
+And the mome raths outgrabe.
+
+</p>
+<p class="verse">
+
+"Beware the Jabberwock, my son!<br />
+The jaws that bite, the claws that catch!<br />
+Beware the Jubjub bird, and shun<br />
+The frumious Bandersnatch!"
+
+</p>
