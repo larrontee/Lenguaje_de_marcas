@@ -1,0 +1,82 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    background-image: url("salon-familia-simpson-1530883044.jpg");
+}
+
+
+.header {
+    width: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.815);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: inline-block;
+}
+
+
+.botones {
+    float: right;
+    margin-right: 20%;
+}
+
+.botones div {
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.header img {
+    display: inline-block;
+    width: 10%;
+    margin-left: 5%;
+    margin-top: 0.7%;
+    margin-bottom: 0.7%;
+}
+
+.body{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.letrero{
+    color: white;
+    margin-top: 20%;
+    margin-left: 5%;
+    display: inline-block;
+    padding-bottom: 10%;
+}
+
+.datos{
+    margin-top: 5%;
+    border-radius: 1%;
+    background-color: rgb(245, 200, 0);
+    float:right;
+    margin-right: 5%;
+}
+.datos input{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 90%;
+    height: 40px;
+}
+
+.terminos{
+    width: 6%;
+    ;
+}
+
+.datos label{
+    
+}
+
+
+.footer{
+    background-image: url("homer-simpso.jpeg_1173666700.jpeg");
+}

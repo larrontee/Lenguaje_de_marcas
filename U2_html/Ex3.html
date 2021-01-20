@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+    table {
+
+    font-family: arial, sans-serif;
+    width: 40%;
+}
+
+td, th {
+    border: 2px solid #dddddd;
+    border-collapse: collapse;
+    border-bottom-width: 3px;
+    border-bottom-color: black;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+<table align:center>
+<tr>
+<h2>Room reservation form</h2>
+
+<form action="/action_page.php">
+    <tr>
+    <td>Your Name:* 
+            <input type="text"  placeholder="Naaaame">
+    </td>
+    </tr>
+    <tr>
+    <td>Your E-mail:* 
+            <input type="text" name="E-mail" value="E-mail">
+    </td>
+    </tr>
+    <tr>
+    <td>Department:* 
+        <select [multiple]>
+            <option>Sells</option>
+            <option>Marketing</option>
+        </select>
+    </td>
+    </tr>
+    <tr>
+    <td>Type of room you want to book:* 
+        
+         <ul style="list-style-type: none; float: right ;">
+           <li> <input type="radio" name="Tipo A" value="Tipo A" checked>Type A </li>
+           <li> <input type="radio" name="Tipo B" value="Tipo B">Type B </li>
+           <li> <input type="radio" name="Tipo C" value="Tipo B">Type C </li>
+        </ul>    
+    </td>
+    </tr>
+    <tr>
+    <td>Extra requirements:*
+            <ul style="list-style-type: none ; float: right ;">
+              <li> <input type="checkbox" name="Easel and pens" value="A" checked>Easel and pens</li>
+              <li> <input type="checkbox" name="TV" value="B" checked>TV</li>
+              <li> <input type="checkbox" name="Cofee, te and water" value="B">Coffee, te and water</li>
+           </ul>   
+        </td>
+    </tr>
+    <tr>
+        <td>Date of booking:* 
+            <input type="date" name="date" value="date">
+            
+    </td>
+    </tr>
+    <tr>
+    <td>Time of booking:* 
+            <input type="time" name="time" value="time">
+            
+    </td>
+    </tr>
+</form> 
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;border-collapse: collapse;
+        }
+        span{ color:
+            red
+        };
+    </style>
+</head>
+
+<body>
+    <table style="width: 40%; height: 50%;">
+        <thead>
+            <tr>
+                <th>
+                    Formulario de reserva de salas
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Your name:<span>*</span>
+                    <input type="text" value="Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Your mail:*
+                    <input type="text" placeholder="mail">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    departament:
+                    <select [multiple]>
+                        <option>option 1</option>
+                        <option>option 2</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Type of room you want to book:* 
+                    
+                     <ul >
+                       <li> <input type="radio" name="Tipo A" value="Tipo A" checked>Type A </li>
+                       
+                       <li> <input type="radio" name="Tipo B" value="Tipo B">Type B </li>
+                       <li> <input type="radio" name="Tipo C" value="Tipo B">Type C </li>
+                    </ul>    
+                </td>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
