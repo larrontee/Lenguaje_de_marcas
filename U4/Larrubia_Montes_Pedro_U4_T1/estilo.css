@@ -1,0 +1,92 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 99%;
+    border-radius: 20px;
+}
+
+.header {
+    color: white;
+    background-color: black;
+}
+
+.titulo {
+    padding-top: 20px;
+    display: inline-block;
+}
+
+.sesion {
+    display: inline-block;
+    margin-left: 80%;
+    padding-bottom: 20px;
+}
+
+.nav {
+    padding: 1%;
+    background-color: rgb(49, 134, 46);
+    color: white;
+    width: 100%;
+}
+
+.botones {
+    padding: 5px;
+    display: inline-block;
+}
+
+.logo {
+    margin-top: 20px;
+    background-color: gray;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 4%;
+    float: left;
+}
+
+.centro{
+    display: inline-block;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.calendario{
+    margin-right: 10%;
+    float: right;
+    background-color: gray;
+    display: inline-block;
+    height: 250px;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 4%;
+
+}
+
+.calendario img{
+    width: 200px;
+    padding: 10px;
+    height: 150px;
+}
+
+.categorias{
+    margin-top: 10%;
+    background-color: rgb(218, 216, 216);
+    font-weight: bold;
+    border-bottom: solid;
+    border-bottom-color: rgb(65, 100, 65);
+    
+
+}
+.cursos img{
+    float:inline-end;
+    width: 50px;
+}
+
+.footer{
+    background-color:rgb(48, 48, 48);
+    color: white;
+    text-align: center;
+}
