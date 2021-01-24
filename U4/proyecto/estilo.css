@@ -7,8 +7,12 @@
     width: 90%;
     margin: auto;
     background-image: url("salon-familia-simpson-1530883044.jpg");
+    background-size: 100%;
 }
 
+body {
+    font-family: 'Gloria Hallelujah', cursive;
+}
 
 .header {
     width: 100%;
@@ -26,7 +30,7 @@
     margin-right: 20%;
 }
 
-.botones div {
+.botones nav {
     display: inline-block;
     margin-top: 60px;
     margin-left: 20px;
@@ -40,11 +44,11 @@
     margin-bottom: 0.7%;
 }
 
-.body{
+.cuerpo {
     background-color: rgba(0, 0, 0, 0);
 }
 
-.letrero{
+.letrero {
     color: white;
     margin-top: 20%;
     margin-left: 5%;
@@ -52,31 +56,76 @@
     padding-bottom: 10%;
 }
 
-.datos{
+.cuadro {
     margin-top: 5%;
     border-radius: 1%;
     background-color: rgb(245, 200, 0);
-    float:right;
+    float: right;
     margin-right: 5%;
 }
-.datos input{
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 10px;
-    width: 90%;
+
+.cuadro div{
+    margin-left: 10%;
+    width: 80%;
+
+}
+
+.datos input {
+    margin: 5px;
     height: 40px;
+    width: 100%;
 }
 
-.terminos{
-    width: 6%;
-    ;
+.cuadro button{
+    background-color: rgb(1, 105, 224);
+    width: 100%;
+}
+.cuadro button:hover{
+    background-color:rgb(1, 142, 224) ;
+}
+.cuadro button:active {
+    color:rgb(255, 255, 255);
+  }
+
+.contrato{
+    width: 10px;
+    display: inline-block;
 }
 
-.datos label{
-    
+
+
+.footer {
+
+    background-image: url("0dca5f0d84bf718864d4a09a6fbb83eb.jpg");
+    background-size: 100%;
 }
 
+.pie {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 150px;
+}
 
-.footer{
-    background-image: url("homer-simpso.jpeg_1173666700.jpeg");
+.chico {
+    width: 13%;
+    height: 50px;
+}
+
+.grande {
+    width: 17%;
+    height: 50px;
+}
+
+.footer button {
+    color: rgb(0, 0, 0);
+    background-color: orange;
+    width: 17%;
+    height: 50px;
+}
+
+.footer button:hover {
+    background-color: rgb(255, 217, 0);
+}
+.footer button:active {
+ color:white;
 }
