@@ -1,0 +1,89 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.815);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: inline-block;
+}
+header *{
+    display: inline-block;
+}
+header img{
+    margin-top: 10px;
+    margin-left: 2%;
+    width: 100px;;
+}
+nav{
+    margin-left: 60%;
+    display: inline-block;
+}
+.container{
+    background-image: url("1366_2000.jpeg");
+    background-size: 100%;
+}
+.container div{
+    display: inline-block;
+}
+main{
+    position: relative;
+}
+.letrero{
+    margin-top: 250px;
+    margin-bottom: 200px;
+    color:white;
+    margin-left: 7%;
+}
+.cuadro{
+    border-radius: 10px;
+    padding-right: 1%;
+    margin-top: 50px;
+    margin-left: 50%;
+    background-color: rgb(133, 31, 31);
+    position:absolute;
+    padding-left: 1%;    
+}
+.cuadro input{
+    margin: 1%;
+    height: 30px;
+    width: 90%;
+}
+.cuadro button{
+    background-color:rgb(255, 0, 157);
+    width: 190px;
+    height: 40px;
+    margin-left: 20%;
+}
+.cuadro button :active{
+    background-color:rgb(255, 0, 157);
+    color: white;
+}
+
+
+footer{
+    background-color: rgba(255, 0, 0, 0.116);
+    color: white;
+}
+footer div{
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+footer input{
+    width: 190px;
+    height: 40px;
+}
+
+footer button{
+    background-color:rgb(255, 0, 157);
+    width: 190px;
+    height: 40px;
+}
+footer button:active {
+    color:white;
+    background-color: rgb(255, 0, 157);
+   }
