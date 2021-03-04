@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #102624;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header h1,
+h2 {
+    text-align: center;
+}
+
+
+
+header img {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.section1 {
+    margin-top: 10px;
+    border-top: 1px outset;
+}
+
+.section2 {
+    margin-top: 10px;
+    border-top: 1px outset;
+}
+
+.section1 img {
+    width: 50px;
+    vertical-align: middle;
+}
+
+.section1 h3 {
+    display: inline-block;
+}
+
+.section2 div {
+    margin-top: 10px;
+}
+
+.section2 div div {
+    text-align: center;
+}
+
+.section2 img {
+    width: 80%;
+
+}
+
+.bloque7 {
+
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px outset;
+
+    text-align: center;
+}
+
+.bloque7 img {
+    width: 100px;
+}
+
+footer {
+    background-color: #102624;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    header section{
+        display: flex;
+        flex-wrap: wrap;  
+    }   
+    header section div{width: 50%;}
+    header p {
+        width: 90%;
+    }
+    .section1 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .section1 div {
+        width: 40%;
+    }
+
+    .section2 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .section2 div {
+        width: 40%;
+    }
+
+    .section2 div div {
+        width: 100%;
+    }
+
+    .section2 div div img {
+        width: 95%;
+    }
+}
+@media screen and (min-width: 992px)
+and (orientation: landscape) {
+    .section1 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .section1 div {
+        width: 33%;
+    }
+
+    .section2 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .section2 div {
+        width: 33%;
+    }
+
+    .section2 div div {
+        width: 100%;
+    }
+
+    .section2 div div img {
+        width: 95%;
+    }
+}
+}
