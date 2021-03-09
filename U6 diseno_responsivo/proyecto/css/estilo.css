@@ -1,7 +1,12 @@
 * {
     box-sizing: border-box;
 }
-
+header h1,h2{
+    font-family: 'Anton', sans-serif;    
+}
+header .titulazo{
+    font-size: 40px;
+}
 header {
     background-color: #102624;
     color: white;
@@ -9,8 +14,7 @@ header {
     padding-right: 10px;
 }
 
-header h1,
-h2 {
+header h1, h2 {
     text-align: center;
 }
 
@@ -62,6 +66,11 @@ header img {
     text-align: center;
 }
 
+main button {
+    width: 100%;
+
+}
+
 .bloque7 img {
     width: 100px;
 }
@@ -72,15 +81,30 @@ footer {
     text-align: center;
 }
 
-@media only screen and (min-width: 768px) {
-    header section{
+@media screen and (min-width: 768px) {
+
+    header img {
+        width: 100%;
+    }
+
+    header section {
         display: flex;
-        flex-wrap: wrap;  
-    }   
-    header section div{width: 50%;}
+        flex-wrap: wrap;
+    }
+
+    header div {
+        width: 100%;
+        margin: 2%;
+    }
+
     header p {
         width: 90%;
     }
+
+    main * {
+        margin-left: 1%;
+    }
+
     .section1 {
         display: flex;
         justify-content: center;
@@ -109,8 +133,32 @@ footer {
         width: 95%;
     }
 }
-@media screen and (min-width: 992px)
-and (orientation: landscape) {
+
+@media screen and (min-width: 992px) {
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header section div {
+        width: 50%;
+        margin: 2%;
+    }
+
+    header section div h1,
+    h2 {
+        text-align: left;
+    }
+
+    header img {
+        width: 40%;
+    }
+
+    main button {
+        width: 100px;
+    }
+
     .section1 {
         display: flex;
         justify-content: center;
@@ -118,7 +166,7 @@ and (orientation: landscape) {
     }
 
     .section1 div {
-        width: 33%;
+        width: 30%;
     }
 
     .section2 {
@@ -128,7 +176,7 @@ and (orientation: landscape) {
     }
 
     .section2 div {
-        width: 33%;
+        width: 30%;
     }
 
     .section2 div div {
@@ -138,5 +186,24 @@ and (orientation: landscape) {
     .section2 div div img {
         width: 95%;
     }
-}
+
+    .bloque7 {
+       
+        display: flex;
+        flex-wrap: wrap;
+        vertical-align: middle;
+    }
+
+    .bloque7 div{
+        width: 67%;
+    }
+    .bloque7 img{
+    width: 8%;
+    
+    }
+    .bloque7 button{
+        width: 100px;
+        height: 50px;
+    }
+
 }
