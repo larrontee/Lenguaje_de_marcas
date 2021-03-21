@@ -71,22 +71,22 @@ header img {
 }
 
 .bloque7 {
-
     margin-top: 10px;
     padding-top: 10px;
     border-top: 1px outset;
-
     text-align: center;
+}
+.bloque7 img{
+    width: 80px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 main button {
-    width: 100%;
+    width: 90%;
 
 }
 
-.bloque7 img {
-    width: 100px;
-}
 
 footer {
     background-color: #102624;
@@ -130,9 +130,6 @@ footer {
         width: 90%;
     }
 
-    main * {
-        margin-left: 1%;
-    }
 
     .section1 {
         display: flex;
@@ -243,11 +240,7 @@ footer {
         width: 70%;
     }
 
-    .bloque7 img {
-        width: 8%;
-
-    }
-
+   
     .bloque7 button {
         width: 100px;
         height: 30px;
