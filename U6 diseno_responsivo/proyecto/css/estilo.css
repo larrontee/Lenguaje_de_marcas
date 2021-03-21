@@ -83,8 +83,7 @@ header img {
 }
 
 main button {
-    width: 90%;
-
+    width: 100%;
 }
 
 
@@ -112,7 +111,9 @@ footer {
     .menu_item {
         display: inline-block;
     }
-
+    main button{
+        width: 99%;
+    }
     .icon {
         display: none;
     }
@@ -129,7 +130,6 @@ footer {
     header p {
         width: 90%;
     }
-
 
     .section1 {
         display: flex;
