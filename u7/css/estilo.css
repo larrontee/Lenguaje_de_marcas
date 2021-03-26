@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.navbarNav{
+    text-align: right;
+    margin-left: 70%;
+}
+.azul{
+    background-color:#1b2a28;
+}
+footer{
+    color: white;
+}

@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+.cuerpo div div i{ 
+  color: pink;  
+}
+.container{
+    margin: auto;
+    max-width: 992px;
+}
+header{
+    color: white;
+    background-color: #333333;
+    display: flex;
+    flex-wrap: wrap;
+}
+header img{
+    padding: 10px auto;
+    margin: 10px auto;
+    width: 200px;
+}
+nav{
+    display: none;
+}
+.buscar {
+    visibility: hidden;
+}
+main{
+    text-align: center;
+    background-color: #555555;
+    color: white;
+}
+.contenido_header{
+    font-size: 40px;
+}
+
+main button{
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    background-color: #ffc0cb;
+    margin-bottom: 10px;
+}
+.subtitulo{
+    background-color: #333333;
+}
+.cuerpo{
+    margin: auto;
+    max-width: 565px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cuerpo div{
+    border: solid;
+    border-color: #dddddd;
+    width: 50%;
+}
+
+.cuerpo div div{
+    border:none;
+}
+.cuerpo img{
+    width: 100%;
+}
+
+@media screen and (min-width: 768px){
+    header .fa{
+        align-items: center;
+    }
+    header, main{
+        margin: auto;
+        max-width: 768px;
+    }
+    .container .cuerpo{
+        text-align: center;
+    }
+    .subtitulo{
+        font-size: 2vw;
+    }
+
+    .inicio_sesion {
+        color: black;
+        background-color: white;
+        margin: auto;
+        
+        max-width: 576px;
+    }
+    .inicio_sesion *{
+    
+        width: 100%;
+        display: inline;
+    }
+    .inicio_sesion button{
+        max-width: 200px;
+    }
+}
+@media screen and (min-width: 992px){
+    header .fa{
+        display: none;
+    }
+    
+    .buscar{
+        margin-left: 20%;
+        padding-top: 20px;
+        visibility: visible;
+    }
+    .buscar form input{
+        max-width: 100px;
+    }
+    header, main{
+        margin: auto;
+        max-width: 992px;
+    }
+    .cuerpo{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 992px;
+    }    
+    .cuerpo div{
+        width: 25%;
+    }
+
+    nav{
+        align-items: center;
+        display: inline-block
+    }
+    nav ul li{
+        padding: 10px auto;
+        display: inline-block;
+        margin: 10px auto;
+    }
+    
+}
