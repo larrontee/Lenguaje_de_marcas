@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+header{
+    background-color;
+}
+
 img{
-    width:100px;
+    width: 300px;
+}
+.carrousel{
+    width: 200px;
 }
