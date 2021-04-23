@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+.azul{
+    background-color: rgba(22,38,35,255);
+}
+
+.gradiente{
+    background: rgb(18,69,69);
+    background: linear-gradient(180deg, rgba(18,69,69,1) 0%, rgba(36,51,48,1) 93%);
+}
+.texto-blanco{
+    color: white;
+}
