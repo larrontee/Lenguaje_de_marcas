@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+.marco {
+    width: 700px;
+    height: 700px;
+    background: rgb(0,176,255);
+background: linear-gradient(180deg, rgba(0,176,255,1) 0%, rgba(22,126,104,1) 81%, rgba(21,77,65,1) 91%);
+    margin: auto;
+    transition: width 2s ease 0s, height 2s ease 0s;
+}
+
+.boton {
+    color: black;
+    width: 60px;
+    height: 30px;
+    margin-top: 90%;
+}
+.boton:active{
+    background-color: seagreen;
+    border-radius: 20%;
+}
+
+.personaje{
+    position:absolute ;
+    width: 200px;
+}
+
+.roca{
+    width: 100px;
+    position: relative;
+    animation-name: rotacion;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  img{
+      width: 100%;
+  }
+
+@keyframes rotacion {
+    0%  { left:800px; top:0px;}
+    25% { left:-100px; top:0px;}
+    50% { left:0px; top:200px;}
+   
+    100%{  left:800px; top:0px;}
+  }
