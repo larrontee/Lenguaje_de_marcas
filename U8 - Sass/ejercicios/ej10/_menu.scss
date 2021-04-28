@@ -1,0 +1,17 @@
+//colores
+$color-menu:#9b6f91;
+
+//menu
+
+header{
+    background-color: $color-menu;
+    ul{display:flex;
+        list-style: none;
+        li{
+            margin: 10px;
+            &:hover{
+                color: white;
+            }
+        }
+    }
+}

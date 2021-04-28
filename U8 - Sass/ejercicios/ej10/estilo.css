@@ -1,0 +1,30 @@
+header {
+  background-color: #9b6f91;
+}
+header ul {
+  display: flex;
+  list-style: none;
+}
+header ul li {
+  margin: 10px;
+}
+header ul li:hover {
+  color: white;
+}
+
+figure {
+  width: 200px;
+  height: 150px;
+  border: solid;
+  border-radius: 20%;
+  text-align: center;
+}
+figure img {
+  padding-top: 10px;
+  width: 70%;
+}
+figure img:hover {
+  transition: 5%;
+}
+
+/*# sourceMappingURL=estilo.css.map */

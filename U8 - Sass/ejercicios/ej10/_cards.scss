@@ -1,0 +1,15 @@
+figure{
+    width: 200px;
+    height: 150px;
+    border: solid;
+    border-radius: 20%;
+    text-align: center;
+   
+    img{
+        padding-top: 10px;
+        width:70%;
+        
+        &:hover{transition: 5%;
+    }}
+    figcaption{}
+}
