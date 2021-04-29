@@ -1,48 +1,53 @@
 * {
     box-sizing: border-box;
 }
-
-.marco {
-    width: 700px;
-    height: 700px;
-    background: rgb(0,176,255);
-background: linear-gradient(180deg, rgba(0,176,255,1) 0%, rgba(22,126,104,1) 81%, rgba(21,77,65,1) 91%);
+.fondo{
+    width: 550px;
+    height: 550px;
+    background-image: url(/Users/Pedro/Desktop/Lenguaje_de_marcas/AnimacionCss/img/mapa.jpg);
+    animation: fondomov .7s linear infinite;
+}
+@keyframes fondomov {
+    0% { background-position:550px } 
+    100% { background-position:0 }
+  }
+.sonic{
+    width: 64px;
+    height: 72px;
+    background-image: url(/Users/Pedro/Desktop/Lenguaje_de_marcas/AnimacionCss/img/sonic.png);
     margin: auto;
-    transition: width 2s ease 0s, height 2s ease 0s;
-}
-
-.boton {
-    color: black;
-    width: 60px;
-    height: 30px;
-    margin-top: 90%;
-}
-.boton:active{
-    background-color: seagreen;
-    border-radius: 20%;
-}
-
-.personaje{
-    position:absolute ;
-    width: 200px;
-}
-
-.roca{
-    width: 100px;
+    animation: walk .1s steps(4) infinite;
     position: relative;
-    animation-name: rotacion;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
+    top: 350px;
+}
+@keyframes walk {
+    
+    0% { background-position:0 }
+    
+    100% { background-position:-256px }
   }
-
-  img{
-      width: 100%;
-  }
-
-@keyframes rotacion {
-    0%  { left:800px; top:0px;}
-    25% { left:-100px; top:0px;}
-    50% { left:0px; top:200px;}
+  
+  
+img{
+    margin-left: 175px;
+    width: 200px;
+    height: 100px;
+   position: absolute;
    
-    100%{  left:800px; top:0px;}
+}
+
+img:active {
+    animation: .3s linear infinite rotate;
+    position: relative;
+    transform-origin: 50% 100%;
+    position: absolute;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg)
+    }
+    to {
+      transform: rotate(360deg)
+    }
   }
