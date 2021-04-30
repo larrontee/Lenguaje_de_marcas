@@ -4,7 +4,7 @@
 .fondo{
     width: 550px;
     height: 550px;
-    background-image: url(/Users/Pedro/Desktop/Lenguaje_de_marcas/AnimacionCss/img/mapa.jpg);
+    background-image: url(../img/mapa.jpg);
     animation: fondomov .7s linear infinite;
 }
 @keyframes fondomov {
@@ -14,7 +14,7 @@
 .sonic{
     width: 64px;
     height: 72px;
-    background-image: url(/Users/Pedro/Desktop/Lenguaje_de_marcas/AnimacionCss/img/sonic.png);
+    background-image: url(../img/sonic.png);
     margin: auto;
     animation: walk .1s steps(4) infinite;
     position: relative;
