@@ -1,53 +1,67 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-.fondo{
-    width: 550px;
-    height: 550px;
-    background-image: url(../img/mapa.jpg);
-    animation: fondomov .7s linear infinite;
+
+.fondo {
+  width: 550px;
+  height: 550px;
+  background-image: url(../img/mapa.jpg);
+  animation: fondomov .7s linear infinite;
 }
+  
 @keyframes fondomov {
-    0% { background-position:550px } 
-    100% { background-position:0 }
+  0% {
+    background-position: 550px
   }
-.sonic{
-    width: 64px;
-    height: 72px;
-    background-image: url(../img/sonic.png);
-    margin: auto;
-    animation: walk .1s steps(4) infinite;
-    position: relative;
-    top: 350px;
+
+  100% {
+    background-position: 0
+  }
 }
+
+.sonic {
+  width: 64px;
+  height: 72px;
+  background-image: url(../img/sonic.png);
+  margin: auto;
+  animation: walk .1s steps(4) infinite;
+  position: relative;
+  top: 350px;
+}
+
 @keyframes walk {
-    
-    0% { background-position:0 }
-    
-    100% { background-position:-256px }
+
+  0% {
+    background-position: 0
   }
-  
-  
-img{
-    margin-left: 175px;
-    width: 200px;
-    height: 100px;
-   position: absolute;
-   
+
+  100% {
+    background-position: -256px
+  }
+}
+
+
+img {
+  margin-left: 175px;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+
 }
 
 img:active {
-    animation: .3s linear infinite rotate;
-    position: relative;
-    transform-origin: 50% 100%;
-    position: absolute;
+  animation: .3s linear infinite rotate;
+  position: relative;
+  transform-origin: 50% 100%;
+  position: absolute;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg)
   }
-  
-  @keyframes rotate {
-    from {
-      transform: rotate(0deg)
-    }
-    to {
-      transform: rotate(360deg)
-    }
+
+  to {
+    transform: rotate(360deg)
   }
+}
