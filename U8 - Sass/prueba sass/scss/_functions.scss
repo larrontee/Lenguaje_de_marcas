@@ -1,0 +1,16 @@
+////@autor: @larrontee
+
+
+@use "sass:list";
+@for $i from 1  through 4 {
+    .section{
+        .section-title{
+            color: colorSectionTitle(i)
+        }
+    }
+}
+///Funcion que devuele el color de la lista segun la posición que metamos por parametros
+///@parameter{int} Valor de la posicion de la lista de colores
+@function colorSectionTitle ($pos){
+    @return list.nth($lista-colores,$pos);
+}

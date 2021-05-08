@@ -1,0 +1,48 @@
+////@autor: @larrontee
+
+///Variable que nos indica si el tema oscuro esta activado.
+///@group colors 
+$dark-theme:false;
+
+///Color del fondo claro
+///@group colors 
+$background_light:#dddddd;
+
+///Color del fondo oscuro
+///@group colors 
+$background_dark:#222222;
+
+///Color del borde
+///@group colors 
+$color-border:#000000;
+
+///Color del texto claro
+///@group colors 
+$font-light:$background_dark;
+
+///Color del texto oscuro
+///@group colors 
+$font-dark:$background_light;
+
+///Color de titulo Experience
+///@group colors 
+$colorExperience: #911b1b;
+
+///Color de titulo Education
+///@group colors 
+$colorEducation: #37eb55;
+
+///Color de titulo Project
+///@group colors 
+$colorProjet: #cdbc9d;
+
+///Color de titulo Skill
+///@group colors 
+$colorSkill: #458ee5;
+
+///Lista de colors de los titulos de los sections
+///@group colors 
+$lista-colores:$colorExperience,$colorEducation,$colorProjet,$colorSkill;
+
+
+$borde:  1px solid $color-border ;

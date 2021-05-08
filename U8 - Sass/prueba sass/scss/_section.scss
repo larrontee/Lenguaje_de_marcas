@@ -1,0 +1,38 @@
+.container{
+    @if ($dark-theme){
+        background-color:$background_dark;
+        color:$font-dark;
+    } @else {
+        background-color: $background_light;
+        color: $font-light;
+    }
+
+    
+}
+.details{
+    .section{
+        .section__title {
+            border-bottom: $borde;
+            display: block;
+        }
+       .section__list{
+          
+           .section__list-item{
+               overflow: auto;
+               .left{
+                float: left;
+                width: 50%;
+               }
+               .right{
+                float: left;
+                width: 50%;
+               }
+            
+            }
+       }
+    }
+}
+div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
