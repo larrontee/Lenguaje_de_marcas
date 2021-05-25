@@ -1,0 +1,27 @@
+.table {
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        p {
+            padding-left: 50px;
+            padding-right:50px; 
+            @include centrado(0, 100);
+            font-size: 100px;
+            border-bottom: solid;
+        }
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        p{
+            padding-right: 100px;
+            
+        }
+        
+        p:hover {
+            background-color: $colorceldas;
+            color: $font-dark;
+        }
+    }
+}

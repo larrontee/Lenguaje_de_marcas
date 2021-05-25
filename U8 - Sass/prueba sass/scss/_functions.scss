@@ -4,7 +4,15 @@
 @use "sass:list";
 @for $i from 1  through 4 {
     .section{
+<<<<<<< HEAD
         .section-title{
+=======
+<<<<<<< HEAD
+        .section-title-3#{$i}{
+=======
+        .section-title{
+>>>>>>> 45b2970247bf652ff28d3320a53fd4fc3b00eca0
+>>>>>>> b479abfa14a7e8db789a6fd07fa88a5f20e90730
             color: colorSectionTitle(i)
         }
     }
@@ -13,4 +21,12 @@
 ///@parameter{int} Valor de la posicion de la lista de colores
 @function colorSectionTitle ($pos){
     @return list.nth($lista-colores,$pos);
+<<<<<<< HEAD
 }
+=======
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 45b2970247bf652ff28d3320a53fd4fc3b00eca0
+>>>>>>> b479abfa14a7e8db789a6fd07fa88a5f20e90730

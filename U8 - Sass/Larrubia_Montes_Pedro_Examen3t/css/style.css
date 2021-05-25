@@ -1,0 +1,87 @@
+.table .header {
+  display: flex;
+  flex-wrap: wrap;
+}
+.table .header p {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100;
+  font-size: 100px;
+  border-bottom: solid;
+}
+.table .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.table .row p {
+  padding-right: 100px;
+}
+.table .row p:hover {
+  background-color: #ff0000;
+  color: #dddddd;
+}
+
+.sidebar {
+  position: absolute;
+  border-radius: 10px;
+  margin-top: 30%;
+  margin-bottom: 30%;
+  width: 200px;
+  border-top: solid;
+  border-left: solid;
+  border-bottom: solid;
+  margin-right: 0px;
+  width: 150px;
+  height: 300px;
+  color: red;
+  background-color: grey;
+  border-color: blue;
+}
+.sidebar img {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 50px;
+}
+.sidebar ul {
+  list-style: none;
+}
+.sidebar a:hover {
+  color: green;
+}
+
+img {
+  width: 50px;
+}
+
+.container {
+  position: relative;
+  margin: 0px auto;
+  background-color: #222222;
+  color: #dddddd;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.font-xs {
+  font-size: 16px;
+}
+
+.font-s {
+  font-size: 32px;
+}
+
+.font-m {
+  font-size: 48px;
+}
+
+.font-lg {
+  font-size: 64px;
+}
+
+.font-xl {
+  font-size: 80px;
+}
+
+/*# sourceMappingURL=style.css.map */
