@@ -1,0 +1,28 @@
+img {
+    width: 50px;
+}
+
+.container {
+    position: relative;
+    margin: 0px auto;
+
+    @if ($dark-theme) {
+        background-color: $background_dark;
+        color: $font-dark;
+    }
+
+    @else {
+        background-color: $background_light;
+        color: $font-light;
+    }
+
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+@each $k,
+$v in $mapa {
+    .font-#{$k} {
+            font-size: fontSizes($v);
+        }
+}

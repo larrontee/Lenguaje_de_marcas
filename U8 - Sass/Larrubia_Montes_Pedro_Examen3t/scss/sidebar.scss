@@ -1,0 +1,21 @@
+.sidebar {
+    position: absolute;
+    border-radius: 10px;
+
+    img {
+        @include centrado(0, 50px)
+    }
+
+    @include centrado(30%, 200px);
+    @include placeSideBar(derecha, 150px, 300px, red, grey, blue);
+
+    ul {
+        list-style: none;
+    }
+
+    a:hover {
+        color: green;
+    }
+
+
+}

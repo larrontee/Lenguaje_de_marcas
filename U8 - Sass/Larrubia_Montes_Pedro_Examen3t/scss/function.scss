@@ -1,0 +1,8 @@
+////@autor: @larrontee
+
+///Esta funcion devuelve el tamaño de la letra, en base 16px
+///@parameter{int} valor por el que se multiplicara el tamaño
+@function fontSizes($tam) {
+    @return $tam*16px;
+}
+

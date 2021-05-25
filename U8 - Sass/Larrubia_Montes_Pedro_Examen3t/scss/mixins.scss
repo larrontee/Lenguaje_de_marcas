@@ -1,0 +1,39 @@
+////@autor: @larrontee
+
+///Mixin que centra el contenido de manera vertical y le da el ancho que deseamos
+///@parameter{int} margen que le damos verticalmente.
+///@parameter{int} ancho que le damos.
+@mixin centrado($magen, $anchura) {
+    margin-top: $magen;
+    margin-bottom: $magen;
+    width: $anchura;
+}
+
+///Mixin que centra el contenido de manera vertical y le da el ancho que deseamos
+///@parameter{string} posicion que decimos que este
+///@parameter{int} ancho que le damos.
+///@parameter{int} altura que le damos.
+///@parameter{int} color que le damos al contenido.
+///@parameter{int} color que le damos al fondo.
+///@parameter{int} color que le damos a los bordes.
+@mixin placeSideBar($position, $width, $height, $color, $background-color, $border-color) {
+    @if $position=='left' {
+        border-top: solid;
+        border-right: solid;
+        border-bottom: solid;
+    }
+
+    @else {
+        border-top: solid;
+        border-left: solid;
+        border-bottom: solid;
+        margin-right: 0px;
+    }
+
+    width: $width;
+    height: $height;
+    color:$color;
+    background-color: $background-color;
+    border-color: $border-color;
+
+}

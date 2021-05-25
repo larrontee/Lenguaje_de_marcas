@@ -1,0 +1,11 @@
+.container {
+    @include centrado(10px,10px,100%);
+}
+
+.full-name{
+    padding-left: 30px;
+    font-size: 50px;
+}
+.name{
+    font-weight: 600;
+}

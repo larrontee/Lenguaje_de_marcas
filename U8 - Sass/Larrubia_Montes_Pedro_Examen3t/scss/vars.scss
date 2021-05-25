@@ -1,0 +1,35 @@
+///Variable que nos indica si el tema oscuro esta activado.
+///@group colors 
+$dark-theme:true;
+
+///Color del fondo claro
+///@group colors 
+$background_light:#dddddd;
+
+///Color del fondo oscuro
+///@group colors 
+$background_dark:#222222;
+
+///Color del borde
+///@group colors 
+$color-border:#000000;
+
+///Color del texto en modo claro
+///@group colors 
+$font-light:$background_dark;
+
+///Color del texto en modo oscuro
+///@group colors 
+$font-dark:$background_light;
+
+///Color cuando pasamos el cursor por encima de las celdas
+///@group colors 
+$colorceldas:#ff0000;
+
+///mapa con los tamaños del texto del header
+$mapa:(
+    "xs" : 1,
+    "s" : 2,
+    "m" : 3,
+    "lg" : 4,
+    "xl" : 5);
